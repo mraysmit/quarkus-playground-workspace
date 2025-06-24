@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WorkspaceSettings">
+    <project name="code-with-quarkus" path="$PROJECT_DIR$/code-with-quarkus" />
+    <project name="mutiny-quarkus-users" path="$PROJECT_DIR$/quarkus-mutiny-example" />
+    <option name="workspace" value="true" />
+  </component>
+</project>
