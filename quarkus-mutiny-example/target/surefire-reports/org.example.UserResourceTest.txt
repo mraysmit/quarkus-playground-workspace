@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: org.example.UserResourceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.60 s <<< FAILURE! -- in org.example.UserResourceTest
+org.example.UserResourceTest -- Time elapsed: 10.60 s <<< ERROR!
+java.lang.IllegalStateException: Mapped port can only be obtained after the container is started
+	at org.testcontainers.shaded.com.google.common.base.Preconditions.checkState(Preconditions.java:512)
+	at org.testcontainers.containers.ContainerState.getMappedPort(ContainerState.java:161)
+	at org.example.UserResourceTest.setup(UserResourceTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.quarkus.test.junit.QuarkusTestExtension.runExtensionMethod(QuarkusTestExtension.java:1013)
+	at io.quarkus.test.junit.QuarkusTestExtension.runExtensionMethod(QuarkusTestExtension.java:907)
+	at io.quarkus.test.junit.QuarkusTestExtension.interceptBeforeAllMethod(QuarkusTestExtension.java:709)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
